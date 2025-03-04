@@ -1,0 +1,14 @@
+&lr_input
+prefix = 'LFO'
+outdir = './'
+restart_step = 200
+restart = .false.
+/
+&lr_control
+itermax = 1000
+pseudo_hermitian = .true.
+    q1               = 0.0,
+    q2               = 0.12,
+    q3               = 0.0,
+ipol = 4
+/

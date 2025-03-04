@@ -1,0 +1,14 @@
+&lr_input
+prefix = 'LFO'
+outdir = './'
+magnons = .true.
+itermax0 = 1000
+itermax = 1000
+extrapolation = 'no'
+ipol = 4
+units = 3
+epsil = 0.5
+start = 0.0
+end = 200.0
+increment = 0.5
+/
